@@ -334,7 +334,7 @@ print("SVM Score:" +  str(svmScore))
 KnnModel = KNeighborsClassifier(7)
 KnnModel.fit( prunedData, newYData )
 KnnScore= KnnModel.score( prunedDataTest, newYTestData )
-print( "SVM Score:" +  str(KnnScore ))
+print( "KNN Score:" +  str(KnnScore ))
 
 
 #grid search on different learning rates, estimator types, and number of estimators
